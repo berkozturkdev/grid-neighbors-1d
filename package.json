@@ -1,31 +1,33 @@
 {
-  "name": "grid-neighbors-1d",
-  "version": "0.1.2",
-  "description": "Get the 8 closest neighbours of a cell in a 2d grid when flattened to a 1d array",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/phugh/grid-neighbors-1d.git"
-  },
-  "keywords": [
-    "array",
-    "2d",
-    "1d",
-    "matrix",
-    "grid",
-    "neighbours",
-    "neighbors",
-    "compass",
-    "direction",
-    "game-of-life"
-  ],
-  "author": "P. Hughes <peter@phugh.es> (https://www.phugh.es)",
-  "license": "CC-BY-NC-SA-3.0",
-  "bugs": {
-    "url": "https://github.com/phugh/grid-neighbors-1d/issues"
-  },
-  "homepage": "https://github.com/phugh/grid-neighbors-1d#readme"
+    "name": "@berkozturkdev/grid-neighbors-1d",
+    "version": "1.0.0",
+    "description": "Find neighbors of a grid cell",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha",
+        "lint": "./node_modules/.bin/eslint index.js --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/berkozturkdev/grid-neighbors-1d.git"
+    },
+    "keywords": [
+        "grid",
+        "neighbors",
+        "array",
+        "2d",
+        "1d",
+        "cells"
+    ],
+    "author": "Berk Öztürk",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/berkozturkdev/grid-neighbors-1d/issues"
+    },
+    "homepage": "https://github.com/berkozturkdev/grid-neighbors-1d#readme",
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-google": "^0.14.0",
+        "mocha": "^7.1.0"
+    }
 }
