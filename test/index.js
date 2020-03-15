@@ -3,7 +3,7 @@ const getNeighbours = require("../index");
 describe("getNeighbours", function() {
     it("", () => {
         const actual = getNeighbours({
-            index: 10,
+            index: 1,
             width: 8,
             heigth: 8
         });

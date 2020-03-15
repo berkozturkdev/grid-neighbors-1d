@@ -4,7 +4,7 @@ module.exports = ({ index, width, heigth }) => {
         return r * heigth + c;
     };
 
-    const row = index / heigth;
+    const row = Math.floor(index / heigth);
     const col = index % width;
 
     let northWest = -1;
@@ -15,9 +15,6 @@ module.exports = ({ index, width, heigth }) => {
     let southWest = -1;
     let south = -1;
     let southEast = -1;
-
-    console.log(row);
-    console.log(col);
 
     northWest = to1dIndex(row - 1, col - 1);
     north = to1dIndex(row - 1, col);
